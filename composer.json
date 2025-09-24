@@ -1,0 +1,17 @@
+{
+  "name": "cyberwani/attribute-manager",
+  "description": "Standalone render-attributes helper (Elementor-compatible API) for building HTML attribute strings safely.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Cyberwani\\AttributeManager\\": "src/"
+    },
+    "files": ["src/helpers.php"]
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
